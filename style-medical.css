@@ -1,0 +1,28 @@
+@import url("https://rsms.me/inter/inter.css");
+html {
+  font-family: "Inter", sans-serif;
+}
+@supports (font-variation-settings: normal) {
+  html {
+    font-family: "Inter var", sans-serif;
+  }
+}
+
+.container-medical {
+  margin-top: 2rem;
+}
+
+.texto-azul-18-bold {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 23px;
+  /* identical to box height, or 128% */
+
+  font-feature-settings: "salt" on, "liga" off;
+
+  /* titulo */
+
+  color: #2b337d;
+}
