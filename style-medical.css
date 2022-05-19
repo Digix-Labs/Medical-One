@@ -26,3 +26,23 @@ html {
 
   color: #2b337d;
 }
+
+.max-width-806 {
+  max-width: 806px;
+}
+
+div.left {
+  float: left;
+  width: 125px;
+  text-align: right;
+  margin: 2px 10px;
+  display: inline;
+}
+
+div.right {
+  float: left;
+  text-align: left;
+  margin: 2px 10px;
+  display: inline;
+  border-bottom: 1px solid #2b337d;
+}
