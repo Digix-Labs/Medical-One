@@ -1,49 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style-medical.css" />
+    <title>Medical One</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
-  <link rel="stylesheet" href="style-medical.css" />
-  <title>Medical One</title>
-</head>
-
-<body>
-  <div class="container">
-    <div class="row">
-      <!-- SIDEBAR -->
-      <div class="col-12 col-md-3 text-center container-medical">
-        <img src="./static/mcico/images/logo-medical.png" alt="Logo medical one" />
-      </div>
-
-      <!-- CONTENT -->
-      <div class="col-12 col-md-9 my-3 max-width-806">
-
-        <img class="img-fluid" src="./static/mcico/images/banner-medical.png" alt="Banner medical" />
-
-        <p class="texto-azul-18-bold mt-3">¡Es momento de aprender más!</p>
-        <p class="my-3 texto-gris-14">
-          Amplié sus conocimientos sobre la diabetes y la nefropatía diabética,
-          el tratamiento en sus pacientes. Datos que lo ayudarán en la atención
-          de sus pacientes con diabetes.
-        </p>
-
-        <div class="wrap-titles">
-          <div class="left">
-            <p class="texto-azul-18-bold">
-              Nefropatía diabética
-            </p>
-          </div>
-          <div class="right">&nbsp;</div>
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- SIDEBAR -->
+        <div class="col-12 col-md-3 text-center container-medical">
+          <img
+            src="./static/mcico/images/logo-medical.png"
+            alt="Logo medical one"
+          />
         </div>
 
+        <!-- CONTENT -->
+        <div class="col-12 col-md-9 my-3 max-width-806">
+          <img
+            class="img-fluid"
+            src="./static/mcico/images/banner-medical.png"
+            alt="Banner medical"
+          />
+
+          <p class="texto-azul-18-bold mt-3">¡Es momento de aprender más!</p>
+          <p class="my-3 texto-gris-14">
+            Amplié sus conocimientos sobre la diabetes y la nefropatía
+            diabética, el tratamiento en sus pacientes. Datos que lo ayudarán en
+            la atención de sus pacientes con diabetes.
+          </p>
+
+          <div class="wrap-titles">
+            <div class="left">
+              <p class="texto-azul-18-bold">Nefropatía diabética</p>
+            </div>
+            <div class="right">&nbsp;</div>
+          </div>
+
+          <img
+            class="img-fluid my-3"
+            src="./static/mcico/images/banner-medical-2.png"
+            alt="Banner medical"
+          />
+
+          <div class="wrap-titles">
+            <div class="left">
+              <p class="texto-azul-18-bold">Videos:</p>
+            </div>
+            <div class="right">&nbsp;</div>
+          </div>
+
+          <div class="wrap-cards row text-center">
+            <div class="col-md-2">&nbsp;</div>
+            <div class="card col-md-4 col-12 py-3">
+              <div style="max-width: 720px" class="video">
+                <video-js
+                  data-account="1905768940001"
+                  data-player="meAxH3mZK"
+                  data-embed="default"
+                  controls=""
+                  data-video-id="6304608469001"
+                  data-playlist-id=""
+                  data-application-id=""
+                  class="vjs-fluid"
+                ></video-js>
+              </div>
+              <script src="https://players.brightcove.net/1905768940001/meAxH3mZK_default/index.min.js"></script>
+              <div style="text-align: left !important">
+                <p class="texto-azul-16-bold pt-3">
+                  Junto al <strong>Dr. Chih Hao Chen Ku</strong> conozca más de
+                  epidemiología, fenotipos e implicaciones.
+                </p>
+              </div>
+            </div>
+            <div class="card col-md-4 ms-5 col-12 py-3 col-offset-md-2">
+              <div style="max-width: 720px" class="video">
+                <video-js
+                  data-account="1905768940001"
+                  data-player="meAxH3mZK"
+                  data-embed="default"
+                  controls=""
+                  data-video-id="6304608337001"
+                  data-playlist-id=""
+                  data-application-id=""
+                  class="vjs-fluid"
+                ></video-js>
+              </div>
+              <script src="https://players.brightcove.net/1905768940001/meAxH3mZK_default/index.min.js"></script>
+              <div style="text-align: left !important">
+                <p class="texto-azul-16-bold pt-3">
+                  <strong
+                    >¿Cómo podemos prevenir la aparición de la nefropatía
+                    diabética?</strong
+                  >
+                  <br />
+                  Descubra más aspectos que lo ayudarán con la prevención y el
+                  tratamiento inicial de sus pacientes.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-2">&nbsp;</div>
+            <div class="card col-md-4 col-12 py-3 my-5">
+              <div style="max-width: 720px" class="video">
+                <video-js
+                  data-account="1905768940001"
+                  data-player="meAxH3mZK"
+                  data-embed="default"
+                  controls=""
+                  data-video-id="6304608466001"
+                  data-playlist-id=""
+                  data-application-id=""
+                  class="vjs-fluid"
+                ></video-js>
+              </div>
+              <script src="https://players.brightcove.net/1905768940001/meAxH3mZK_default/index.min.js"></script>
+              <div style="text-align: left !important">
+                <p class="texto-azul-16-bold pt-3">
+                  Continúe ampliando sus conocimientos sobre la prevención y el
+                  tratamiento inicial de la nefropatía diabética en sus
+                  pacientes. Aprenda toda la información al lado del
+                  <strong>Dr. Chih Hao Chen Ku.</strong>
+                </p>
+              </div>
+            </div>
+            <div class="card col-md-4 ms-5 col-12 py-3 col-offset-md-2 my-5">
+              <div style="max-width: 720px" class="video">
+                <video-js
+                  data-account="1905768940001"
+                  data-player="meAxH3mZK"
+                  data-embed="default"
+                  controls=""
+                  data-video-id="6304608468001"
+                  data-playlist-id=""
+                  data-application-id=""
+                  class="vjs-fluid"
+                ></video-js>
+              </div>
+              <script src="https://players.brightcove.net/1905768940001/meAxH3mZK_default/index.min.js"></script>
+              <div style="text-align: left !important">
+                <p class="texto-azul-16-bold pt-3">
+                  <strong
+                    >¿Cuál es la importancia del control glucémico en la
+                    ERC?</strong
+                  >
+                  El <strong>Dr. Chih Hao Chen Ku</strong> nos brinda
+                  información relevante que ayudará en el control de la glicemia
+                  de nuestros pacientes.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <img
+            class="img-fluid my-3"
+            src="./static/mcico/images/banner-medical-3.png"
+            alt="Banner medical"
+          />
+
+          <div class="wrap-titles">
+            <div class="left">
+              <p class="texto-azul-18-bold">Videos:</p>
+            </div>
+            <div class="right">&nbsp;</div>
+          </div>
+
+          <div class="wrap-cards row text-center">
+            <div class="col-md-2">&nbsp;</div>
+            <div class="card col-md-4 col-12 py-3">
+              <div style="max-width: 720px" class="video">
+                <video-js
+                  data-account="1905768940001"
+                  data-player="meAxH3mZK"
+                  data-embed="default"
+                  controls=""
+                  data-video-id="6304608010001"
+                  data-playlist-id=""
+                  data-application-id=""
+                  class="vjs-fluid"
+                ></video-js>
+              </div>
+              <script src="https://players.brightcove.net/1905768940001/meAxH3mZK_default/index.min.js"></script>
+              <div style="text-align: left !important">
+                <p class="texto-azul-16-bold pt-3">
+                  Junto a la <strong>Dra. Sonia Cerdas</strong>, médico
+                  endocrinólogo, usted podrá aumentar sus conocimientos sobre la
+                  inercia clínica en el paciente diabético recién diagnosticado
+                  y en aquellos de larga evolución.
+                </p>
+              </div>
+            </div>
+            <div class="card col-md-4 ms-5 col-12 py-3 col-offset-md-2">
+              <div style="max-width: 720px" class="video">
+                <video-js
+                  data-account="1905768940001"
+                  data-player="meAxH3mZK"
+                  data-embed="default"
+                  controls=""
+                  data-video-id="6304608010001"
+                  data-playlist-id=""
+                  data-application-id=""
+                  class="vjs-fluid"
+                ></video-js>
+              </div>
+              <script src="https://players.brightcove.net/1905768940001/meAxH3mZK_default/index.min.js"></script>
+              <div style="text-align: left !important">
+                <p class="texto-azul-16-bold pt-3">
+                  <strong
+                    >¿Cuál es la relación entre la inercia clínica, los
+                    pacientes y las instituciones?</strong
+                  >
+                  <br />
+                  La <strong>Dra. Sonia Cerdas</strong>, profundiza en el
+                  impacto que tiene en la salud del paciente diabético y en los
+                  servicios de salud. Conozca más datos en este interesante
+                  módulo.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-2">&nbsp;</div>
+            <div class="card col-md-4 col-12 py-3 my-5">
+              <div style="max-width: 720px" class="video">
+                <video-js
+                  data-account="1905768940001"
+                  data-player="meAxH3mZK"
+                  data-embed="default"
+                  controls=""
+                  data-video-id="6304608010001"
+                  data-playlist-id=""
+                  data-application-id=""
+                  class="vjs-fluid"
+                ></video-js>
+              </div>
+              <script src="https://players.brightcove.net/1905768940001/meAxH3mZK_default/index.min.js"></script>
+              <div style="text-align: left !important">
+                <p class="texto-azul-16-bold pt-3">
+                  En este módulo, la <strong>Dra. Sonia Cerdas</strong>, no
+                  explica a profundidad cuáles son las complicaciones de la
+                  inercia clínica en los pacientes diabéticos con diagnóstico
+                  reciente y en aquellos de larga evolución.
+                </p>
+              </div>
+            </div>
+            <div class="card col-md-4 ms-5 col-12 py-3 col-offset-md-2 my-5">
+              <div style="max-width: 720px" class="video">
+                <video-js
+                  data-account="1905768940001"
+                  data-player="meAxH3mZK"
+                  data-embed="default"
+                  controls=""
+                  data-video-id="6304608010001"
+                  data-playlist-id=""
+                  data-application-id=""
+                  class="vjs-fluid"
+                ></video-js>
+              </div>
+              <script src="https://players.brightcove.net/1905768940001/meAxH3mZK_default/index.min.js"></script>
+              <div style="text-align: left !important">
+                <p class="texto-azul-16-bold pt-3">
+                  <strong>¿Podemos romper la inercia clínica?</strong> La
+                  <strong>Dra. Sonia Cerdas</strong>, nos brinda soluciones, a
+                  través de datos y su experiencia, de cómo podemos cuidar a
+                  nuestros pacientes por medio de individualizar el aporte
+                  terapéutico.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
     </div>
-  </div>
-</body>
-
+  </body>
 </html>

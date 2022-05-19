@@ -28,8 +28,22 @@ html {
   color: #2b337d;
 }
 
+.texto-azul-16-bold {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  color: #2b337d;
+}
+
 .max-width-806 {
   max-width: 806px;
+}
+
+.vjs-poster {
+  background-color: transparent !important;
 }
 
 .wrap-titles {
@@ -47,4 +61,10 @@ div.right {
   flex-grow: 1;
   border-bottom: 1px solid #2b337d;
   height: 16px;
+}
+
+.card {
+  background: #ffffff;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 9.06475px;
 }
